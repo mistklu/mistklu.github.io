@@ -1,12 +1,12 @@
 :root {
-  --body-bg-color: #fff;
+  --body-bg-color: #000;
   --content-bg-color: #f5f5f5;
   --card-bg-color: #f5f5f5;
-  --text-color: #555;
+  --text-color: #fff;
   --selection-bg: #262a30;
   --selection-color: #eee;
   --blockquote-color: #666;
-  --link-color: #555;
+  --link-color: #d73d5f;
   --link-hover-color: #222;
   --brand-color: #222;
   --brand-hover-color: #222;
@@ -211,6 +211,7 @@ h6 {
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
+  color: #d73d5f;
 }
 h1 {
   font-size: 1.5em;
@@ -645,7 +646,7 @@ pre code {
   width: 100%;
 }
 .post-body .label {
-  color: #555;
+  color: #fff;
   padding: 0 2px;
 }
 .post-body .label.default {
@@ -664,7 +665,7 @@ pre code {
   background: #fcf6e1;
 }
 .post-body .label.danger {
-  background: #fae8eb;
+  background: #fedff9;
 }
 .post-body .link-grid {
   display: grid;
@@ -835,14 +836,14 @@ pre code {
   color: #f0ad4e;
 }
 .post-body .note.danger {
-  border-left-color: #d9534f;
+  border-left-color: #fa06a9;
 }
 .post-body .note.danger h2,
 .post-body .note.danger h3,
 .post-body .note.danger h4,
 .post-body .note.danger h5,
 .post-body .note.danger h6 {
-  color: #d9534f;
+  color: #fa06a9;
 }
 .post-body .tabs {
   margin-bottom: 20px;
@@ -1228,7 +1229,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #c36282;
+  background: #3cff85;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -1293,7 +1294,7 @@ pre code {
   }
 }
 .sidebar-toggle:hover .toggle-line {
-  background: #87daff;
+  background: #d73d5f;
 }
 @media (any-hover: hover) {
   body:not(.sidebar-active) .sidebar-toggle:hover :first-child {
@@ -1338,7 +1339,7 @@ pre code {
 }
 .sidebar-nav li {
   border-bottom: 1px solid transparent;
-  color: #666;
+  color: #c89faf;
   cursor: pointer;
   display: inline-block;
   transition: 0.2s ease-in-out;
@@ -1352,13 +1353,13 @@ pre code {
 }
 .sidebar-toc-active .sidebar-nav-toc,
 .sidebar-overview-active .sidebar-nav-overview {
-  border-bottom-color: #87daff;
-  color: #87daff;
+  border-bottom-color: #d73d5f;
+  color: #d73d5f;
   transition-delay: 0.2s;
 }
 .sidebar-toc-active .sidebar-nav-toc:hover,
 .sidebar-overview-active .sidebar-nav-overview:hover {
-  color: #87daff;
+  color: #d73d5f;
 }
 .sidebar-panel-container {
   align-items: start;
@@ -1464,14 +1465,14 @@ pre code {
   visibility: unset;
 }
 .post-toc .nav .active > a {
-  border-bottom-color: #87daff;
-  color: #87daff;
+  border-bottom-color: #d73d5f;
+  color: #d73d5f;
 }
 .post-toc .nav .active-current > a {
-  color: #87daff;
+  color: #d73d5f;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #87daff;
+  color: #d73d5f;
 }
 .site-author-image {
   border: 2px solid #333;
@@ -1686,7 +1687,7 @@ pre code {
   }
 }
 .back-to-top:hover {
-  color: #87daff;
+  color: #d73d5f;
 }
 .back-to-top.back-to-top-on {
   bottom: 30px;
@@ -2134,17 +2135,17 @@ pre code {
 }
 .reward-container button {
   background: transparent;
-  color: #87daff;
+  color: #d73d5f;
   cursor: pointer;
   line-height: 2;
   padding: 0 15px;
-  border: 2px solid #87daff;
+  border: 2px solid #d73d5f;
   border-radius: 2px;
   outline: 0;
   vertical-align: text-top;
 }
 .reward-container button:hover {
-  background: #87daff;
+  background: #d73d5f;
   color: #fff;
 }
 .post-reward {
@@ -2423,6 +2424,7 @@ header.header {
 }
 .site-meta .site-title {
   font-weight: bolder;
+  font-color: #d73d5f;
 }
 .logo-line {
   background: var(--brand-color);
