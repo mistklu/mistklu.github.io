@@ -1230,7 +1230,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #0bffff;
+  background: #ff4e41;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2402,7 +2402,7 @@ hr {
   }
 }
 .column {
-  background: rgba(200,159,175,0.81);
+  background: rgba(49,41,44,0.81);
 }
 header.header {
   align-items: center;
@@ -2607,6 +2607,10 @@ header.header {
 @media (min-width: 1200px) {
   .sidebar-dimmer {
     display: none;
+  }
+  .sidebar {
+    background: #000;
+    font-color: #fea2c1;
   }
   .sidebar-active {
     padding-left: 320px;
