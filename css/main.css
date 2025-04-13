@@ -1230,7 +1230,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #e360d0;
+  background: #bb2d90;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2629,13 +2629,32 @@ header.header {
   --waline-theme-color: #d73d5f !important;
   --waline-active-color: #d73d5f !important;
 }
+body {
+  font: #fea2c1 !important;
+}
 .wl-panel {
   border-radius: 4px !important;
   box-shadow: 5px 5px 5px 5px #fea2c1 !important;
-  background: transparent;
+  font-color: #fea2c1;
 }
 .wl-addr,
 .wl-browser,
 .wl-os {
   display: none !important;
 }
+/*.wl-edit {
+    font-color: #fea2c1 !important;
+}*/
+/*.wl-content {
+    font-color: #fea2c1 !important;
+    //background: white !important;
+}*/
+div.wl-card-item {
+  background-color: #f6f3f4 !important;
+  font: #fea2c1 !important;
+  border-radius: 4px !important;
+  box-shadow: 5px 5px 5px 5px #fea2c1 !important;
+}
+/*span.wl-nick {
+    font: #fea2c1 !important;
+}*/
