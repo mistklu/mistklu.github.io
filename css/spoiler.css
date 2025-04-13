@@ -25,7 +25,7 @@
 }
 
 .spoiler.collapsed .spoiler-title:before {
-    content: "▶";
+    content: " ▶ ";
 }
 
 .spoiler.expanded .spoiler-title:before {
