@@ -1083,9 +1083,10 @@ pre code {
   color: var(--brand-color);
   display: inline-block;
   padding: 2px 1px;
+  color: #d73d5f;
 }
 .brand:hover {
-  color: var(--brand-hover-color);
+  color: #fff;
 }
 .site-title {
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
@@ -1229,7 +1230,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #3cff85;
+  background: #f4d29d;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -1480,7 +1481,7 @@ pre code {
   padding: 2px;
 }
 .site-author-name {
-  color: #f5f5f5;
+  solor: #d73d5f;
   font-weight: normal;
   margin: 5px 0 0;
 }
@@ -2464,6 +2465,7 @@ header.header {
 }
 .menu {
   padding: 0;
+  color: #c89faf;
 }
 .menu .menu-item {
   margin: 0;
@@ -2489,7 +2491,7 @@ header.header {
   }
 }
 .posts-expand.index .post-header {
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .posts-expand.index .post-header {
@@ -2510,8 +2512,17 @@ header.header {
 .posts-expand .post-eof {
   display: none;
 }
+.posts-expand .post-block:first-of-type {
+  margin-top: 120px;
+  border: 1px solid #fea2c1;
+  padding: 5%;
+  box-shadow: 5px 5px 10px 0px #fea2c1;
+}
 .posts-expand .post-block:not(:first-of-type) {
   margin-top: 120px;
+  border: 1px solid #fea2c1;
+  padding: 5%;
+  box-shadow: 5px 5px 10px 0px #fea2c1;
 }
 .posts-expand .post-header {
   margin-bottom: 20px;
