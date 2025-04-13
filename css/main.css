@@ -1230,7 +1230,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #f4d29d;
+  background: #ff3b7e;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2392,8 +2392,8 @@ hr {
   }
 }
 .footer {
-  background: var(--content-bg-color);
-  color: var(--text-color);
+  background: #000;
+  font-color: #fff;
   padding: 10px 0;
 }
 @media (max-width: 767px) {
@@ -2402,7 +2402,7 @@ hr {
   }
 }
 .column {
-  background: var(--content-bg-color);
+  background: rgba(200,159,175,0.81);
 }
 header.header {
   align-items: center;
