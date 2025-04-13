@@ -7,7 +7,7 @@
   --selection-color: #eee;
   --blockquote-color: #666;
   --link-color: #d73d5f;
-  --link-hover-color: #222;
+  --link-hover-color: #fea2c1;
   --brand-color: #222;
   --brand-hover-color: #222;
   --table-row-odd-bg-color: #f9f9f9;
@@ -1230,7 +1230,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff4e41;
+  background: #ee60ac;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2624,4 +2624,13 @@ header.header {
 }
 .sub-menu .menu-item {
   display: inline-block;
+}
+:root {
+  --waline-theme-color: #d73d5f !important;
+  --waline-active-color: #d73d5f !important;
+}
+.wl-panel {
+  border-radius: 4px !important;
+  box-shadow: 5px 5px 5px 5px #fea2c1 !important;
+  background: transparent;
 }
