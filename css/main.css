@@ -1230,7 +1230,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #5c5028;
+  background: #4fb4f0;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2635,5 +2635,5 @@ header.header {
   background: transparent;
 }
 .vmeta {
-  display: none;
+  display: none !important;
 }
