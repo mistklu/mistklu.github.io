@@ -2,7 +2,7 @@
   --body-bg-color: #000;
   --content-bg-color: #f5f5f5;
   --card-bg-color: #f5f5f5;
-  --text-color: #f5f5f5;
+  --text-color: #c7b9c8;
   --selection-bg: #262a30;
   --selection-color: #eee;
   --blockquote-color: #666;
@@ -646,7 +646,7 @@ pre code {
   width: 100%;
 }
 .post-body .label {
-  color: #f5f5f5;
+  color: #c7b9c8;
   padding: 0 2px;
 }
 .post-body .label.default {
@@ -1230,7 +1230,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #5d6e83;
+  background: #e8ffe7;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2652,8 +2652,10 @@ body {
 div.wl-card-item {
   background-color: #f6f3f4 !important;
   font: #fea2c1 !important;
-  border-radius: 4px !important;
-  box-shadow: 5px 5px 5px 5px #fea2c1 !important;
+  border-radius: 8px !important;
+  border-style: dashed !important;
+  border: 4px;
+  box-shadow: 5px 5px 5px 5px rgba(254,162,193,0.28) !important;
 }
 /*span.wl-nick {
     font: #fea2c1 !important;
